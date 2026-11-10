@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 
   if (mobileMenuBtn && mobileMenu) {
-    mobileMenuBtn.addEventListener('click', () => {
+    mobileMenuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       mobileMenu.classList.toggle('hidden');
     });
 
@@ -32,6 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
       link.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
       });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!mobileMenu.classList.contains('hidden')) {
+        if (!mobileMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+          mobileMenu.classList.add('hidden');
+        }
+      }
     });
   }
 
@@ -388,6 +398,12 @@ function closeVideoPlayer() {
 
 // Keyboard shortcuts for Lightbox & Video Modal
 document.addEventListener('keydown', (e) => {
+  // Close mobile menu on Escape
+  const mobileMenu = document.getElementById('mobileMenu');
+  if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+    mobileMenu.classList.add('hidden');
+  }
+
   // Lightbox
   const lightboxModal = document.getElementById('lightbox');
   if (lightboxModal && !lightboxModal.classList.contains('hidden')) {
@@ -402,3 +418,44 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeVideoPlayer();
   }
 });
+
+// Mobile Touch Swipe Navigation for Photo Lightbox
+(function initLightboxSwipe() {
+  const lightbox = document.getElementById('lightbox');
+  if (!lightbox) return;
+
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let touchStartY = 0;
+  let touchEndY = 0;
+
+  lightbox.addEventListener('touchstart', (e) => {
+    if (e.touches && e.touches.length === 1) {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  lightbox.addEventListener('touchend', (e) => {
+    if (e.changedTouches && e.changedTouches.length === 1) {
+      touchEndX = e.changedTouches[0].clientX;
+      touchEndY = e.changedTouches[0].clientY;
+      handleSwipe();
+    }
+  }, { passive: true });
+
+  function handleSwipe() {
+    const deltaX = touchEndX - touchStartX;
+    const deltaY = touchEndY - touchStartY;
+    // Ensure horizontal swipe is dominant and exceeds threshold (40px)
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 40) {
+      if (deltaX < 0) {
+        // Swiped left -> Next photo
+        changeLightboxImage(1);
+      } else {
+        // Swiped right -> Previous photo
+        changeLightboxImage(-1);
+      }
+    }
+  }
+})();
