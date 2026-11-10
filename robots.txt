@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://prasanthifarmhouse.com/sitemap.xml
+Sitemap: https://prasanthifarmhouse.in/sitemap.xml

@@ -3,51 +3,51 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://prasanthifarmhouse.com/</loc>
+    <loc>https://prasanthifarmhouse.in/</loc>
     <lastmod>2026-11-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_1.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_1.webp</image:loc>
       <image:title>Golden Sunset Reflection on Ashtamudi Lake</image:title>
       <image:caption>Scenic sunset over backwaters viewed from Prasanthi Farm House, Kollam</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_2.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_2.webp</image:loc>
       <image:title>Lakeside Courtyard and Palms at Sunset</image:title>
       <image:caption>Direct waterfront stone sitout area along Ashtamudi Lake</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_3.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_3.webp</image:loc>
       <image:title>Prasanthi Farm House Ashtamudi Sunset with Festoon Lights</image:title>
       <image:caption>Evening celebration ambiance overlooking Ashtamudi Lake backwaters, Kollam</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_4.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_4.webp</image:loc>
       <image:title>Garden Walkway with Stone Steps and Red Hibiscus Blooms</image:title>
       <image:caption>Lush tropical flora and cottage pathways leading to the lakefront</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_5.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_5.webp</image:loc>
       <image:title>Heritage Kerala Cottage Exterior and Sitout</image:title>
       <image:caption>Traditional clay-tiled roof and Poomukham veranda at Prasanthi Farm House</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.com/assets/images/img_6.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_6.webp</image:loc>
       <image:title>Waterfront Celebration Lawn and Sunburst Arch</image:title>
       <image:caption>Open-air venue for weddings, birthdays, and family get-togethers</image:caption>
     </image:image>
     <video:video>
-      <video:thumbnail_loc>https://prasanthifarmhouse.com/assets/images/img_3.webp</video:thumbnail_loc>
+      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_3.webp</video:thumbnail_loc>
       <video:title>Prasanthi Farm House - Property &amp; Backwater Ambiance Tour</video:title>
       <video:description>Walkthrough of the lakeside lawn, backwaters, and cottage at Prasanthi Farm House on Ashtamudi Lake, Kollam.</video:description>
-      <video:content_loc>https://prasanthifarmhouse.com/assets/videos/prasanthi_vid_one.mp4</video:content_loc>
+      <video:content_loc>https://prasanthifarmhouse.in/assets/videos/prasanthi_vid_one.mp4</video:content_loc>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://prasanthifarmhouse.com/assets/images/img_2.webp</video:thumbnail_loc>
+      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_2.webp</video:thumbnail_loc>
       <video:title>Prasanthi Farm House - Waterfront Walkthrough</video:title>
       <video:description>Experience the serene water breezes, coconut palms, and peaceful lakefront railing at Ashtamudi Lake.</video:description>
-      <video:content_loc>https://prasanthifarmhouse.com/assets/videos/prasanthi_vid_two.mp4</video:content_loc>
+      <video:content_loc>https://prasanthifarmhouse.in/assets/videos/prasanthi_vid_two.mp4</video:content_loc>
     </video:video>
   </url>
 </urlset>
