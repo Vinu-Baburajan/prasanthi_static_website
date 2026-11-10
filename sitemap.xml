@@ -8,6 +8,11 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/hero_bg.jpg</image:loc>
+      <image:title>Prasanthi Farm House Lakeside Waterfront at Ashtamudi</image:title>
+      <image:caption>Serene backwater setting and waterfront grounds on Ashtamudi Lake, Kollam</image:caption>
+    </image:image>
+    <image:image>
       <image:loc>https://prasanthifarmhouse.in/assets/images/img_1.webp</image:loc>
       <image:title>Golden Sunset Reflection on Ashtamudi Lake</image:title>
       <image:caption>Scenic sunset over backwaters viewed from Prasanthi Farm House, Kollam</image:caption>
