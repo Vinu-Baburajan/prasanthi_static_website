@@ -1,0 +1,100 @@
+/* Custom styles for Prasanthi Farm House */
+
+/* Base font smoothing and aesthetics */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f0ea;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1b3d30;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #132c23;
+}
+
+/* Navigation link underline effect */
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #10b981;
+  transition: width 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 9999px;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Image hover zoom transition */
+.gallery-item img {
+  will-change: transform;
+}
+
+/* Gallery filter button active state */
+.gallery-filter-btn.active {
+  background-color: #132c23;
+  color: #ffffff;
+}
+
+/* Smooth accordion animation */
+.faq-answer {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Video Player container aesthetic */
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+}
+
+/* Date picker icon styling */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.85);
+  cursor: pointer;
+}
+
+/* Video selector card hover & active transitions */
+.video-selector-card {
+  cursor: pointer;
+  will-change: transform, border-color;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.video-selector-card:active {
+  transform: scale(0.98);
+}
+
+/* Sound toggle gentle pulse effect */
+@keyframes softPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+}
+
+#soundToggleBtn {
+  animation: softPulse 2.5s infinite;
+}
+
