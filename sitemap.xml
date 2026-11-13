@@ -8,22 +8,22 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.in/assets/images/hero_bg.jpg</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/hero_bg.png</image:loc>
       <image:title>Prasanthi Farm House Lakeside Waterfront at Ashtamudi</image:title>
       <image:caption>Serene backwater setting and waterfront grounds on Ashtamudi Lake, Kollam</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.in/assets/images/img_1.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_1.png</image:loc>
       <image:title>Golden Sunset Reflection on Ashtamudi Lake</image:title>
       <image:caption>Scenic sunset over backwaters viewed from Prasanthi Farm House, Kollam</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.in/assets/images/img_2.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_2.png</image:loc>
       <image:title>Lakeside Courtyard and Palms at Sunset</image:title>
       <image:caption>Direct waterfront stone sitout area along Ashtamudi Lake</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.in/assets/images/img_3.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_3.png</image:loc>
       <image:title>Prasanthi Farm House Ashtamudi Sunset with Festoon Lights</image:title>
       <image:caption>Evening celebration ambiance overlooking Ashtamudi Lake backwaters, Kollam</image:caption>
     </image:image>
@@ -38,18 +38,18 @@
       <image:caption>Traditional clay-tiled roof and Poomukham veranda at Prasanthi Farm House</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://prasanthifarmhouse.in/assets/images/img_6.webp</image:loc>
+      <image:loc>https://prasanthifarmhouse.in/assets/images/img_6.png</image:loc>
       <image:title>Waterfront Celebration Lawn and Sunburst Arch</image:title>
       <image:caption>Open-air venue for weddings, birthdays, and family get-togethers</image:caption>
     </image:image>
     <video:video>
-      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_3.webp</video:thumbnail_loc>
+      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_3.png</video:thumbnail_loc>
       <video:title>Prasanthi Farm House - Property &amp; Backwater Ambiance Tour</video:title>
       <video:description>Walkthrough of the lakeside lawn, backwaters, and cottage at Prasanthi Farm House on Ashtamudi Lake, Kollam.</video:description>
       <video:content_loc>https://prasanthifarmhouse.in/assets/videos/prasanthi_vid_one.mp4</video:content_loc>
     </video:video>
     <video:video>
-      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_2.webp</video:thumbnail_loc>
+      <video:thumbnail_loc>https://prasanthifarmhouse.in/assets/images/img_2.png</video:thumbnail_loc>
       <video:title>Prasanthi Farm House - Waterfront Walkthrough</video:title>
       <video:description>Experience the serene water breezes, coconut palms, and peaceful lakefront railing at Ashtamudi Lake.</video:description>
       <video:content_loc>https://prasanthifarmhouse.in/assets/videos/prasanthi_vid_two.mp4</video:content_loc>

@@ -9,7 +9,7 @@ Features **2 exclusive lakefront rooms** and an expansive **open-air waterfront 
 ## 🌟 Key Features
 
 1. **Brand Identity & Authentic Visuals:**
-   - Real photos (`assets/images/img_1.webp` to `img_6.webp`) capturing the traditional Kerala cottage, clay tiled roofs, sit-out verandah, stone courtyard, palm trees, and golden Ashtamudi lake sunset.
+   - Real photos (`assets/images/img_1.png` to `img_6.png`) capturing the traditional Kerala cottage, clay tiled roofs, sit-out verandah, stone courtyard, palm trees, and golden Ashtamudi lake sunset.
    - Built-in video player & modal playing `assets/videos/prasanthi_vid_two.mp4`.
 2. **Dual Showcase:**
    - **Boutique Stays:** Highlighting Room 1 (Heritage Verandah Suite), Room 2 (Palm Courtyard Room), and whole property buyout.
@@ -33,12 +33,12 @@ Features **2 exclusive lakefront rooms** and an expansive **open-air waterfront 
 prasanthi_static/
 ├── assets/
 │   ├── images/
-│   │   ├── img_1.webp   # Golden sunset reflection on Ashtamudi Lake
-│   │   ├── img_2.webp   # Courtyard, palms & lakeside sunset sit-out
-│   │   ├── img_3.webp   # Hero banner with evening festoon string lights
+│   │   ├── img_1.png   # Golden sunset reflection on Ashtamudi Lake
+│   │   ├── img_2.png   # Courtyard, palms & lakeside sunset sit-out
+│   │   ├── img_3.png   # Hero banner with evening festoon string lights
 │   │   ├── img_4.webp   # Stone garden pathway & flowering hibiscus
 │   │   ├── img_5.webp   # Traditional Kerala cottage with terracotta roof & sit-out
-│   │   └── img_6.webp   # Expansive celebration lawn & sunburst entry arch
+│   │   └── img_6.png   # Expansive celebration lawn & sunburst entry arch
 │   └── videos/
 │       ├── prasanthi_vid_one.mp4  # Video 1: Property & Backwater Ambiance
 │       └── prasanthi_vid_two.mp4  # Video 2: Waterfront Walkthrough & Lake Breeze

@@ -191,15 +191,15 @@ function handleBookingSubmit(event) {
 // Photo Gallery Lightbox using Real Images
 const galleryImages = [
   {
-    src: "assets/images/img_1.webp",
+    src: "assets/images/img_1.png",
     caption: "Golden Sunset over Ashtamudi Lake Backwaters"
   },
   {
-    src: "assets/images/img_2.webp",
+    src: "assets/images/img_2.png",
     caption: "Lakeside Paved Stone Courtyard, Coconut Palms & Sunset Sit-out"
   },
   {
-    src: "assets/images/img_3.webp",
+    src: "assets/images/img_3.png",
     caption: "Evening Festoon String Lights on Waterfront Lawn overlooking Sunset"
   },
   {
@@ -211,7 +211,7 @@ const galleryImages = [
     caption: "Heritage Kerala Cottage with Terracotta Clay Roof & Traditional Sit-out (Poomukham)"
   },
   {
-    src: "assets/images/img_6.webp",
+    src: "assets/images/img_6.png",
     caption: "Expansive Lakeside Celebration Lawn & Decorative Sunburst Entry Arch"
   }
 ];
@@ -260,14 +260,14 @@ const videos = [
     id: 1,
     title: "Video 1: Property & Backwater Ambiance",
     src: "assets/videos/prasanthi_vid_one.mp4",
-    poster: "assets/images/img_3.webp",
+    poster: "assets/images/img_3.png",
     desc: "A comprehensive look at the serene Ashtamudi backwater property, sunset vibe, and lawn."
   },
   {
     id: 2,
     title: "Video 2: Waterfront Walkthrough",
     src: "assets/videos/prasanthi_vid_two.mp4",
-    poster: "assets/images/img_2.webp",
+    poster: "assets/images/img_2.png",
     desc: "Walking along the waterfront railing, coconut palms, and peaceful backwater ripples."
   }
 ];
