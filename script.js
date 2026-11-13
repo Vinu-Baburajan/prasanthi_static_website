@@ -4,6 +4,22 @@ function initIcons() {
   if (window.lucide && typeof lucide.createIcons === 'function') {
     lucide.createIcons();
   }
+  // Fallback for custom brand icons not present in standard Lucide icon package
+  const instagramEls = document.querySelectorAll('[data-lucide="instagram"]');
+  instagramEls.forEach(el => {
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('fill', 'none');
+    svg.setAttribute('stroke', 'currentColor');
+    svg.setAttribute('stroke-width', '2');
+    svg.setAttribute('stroke-linecap', 'round');
+    svg.setAttribute('stroke-linejoin', 'round');
+    svg.setAttribute('aria-hidden', 'true');
+    const classes = el.getAttribute('class');
+    if (classes) svg.setAttribute('class', classes);
+    svg.innerHTML = '<rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>';
+    el.replaceWith(svg);
+  });
 }
 
 document.addEventListener('DOMContentLoaded', () => {
